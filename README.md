@@ -1,73 +1,185 @@
-# Welcome to your Lovable project
+# తెలుగు రుచులు (Telugu Ruchulu) - Authentic Telugu Restaurant Website
 
-## Project info
+A modern, responsive website for an authentic Telugu restaurant showcasing traditional Andhra & Telangana cuisine.
 
-**URL**: https://lovable.dev/projects/c0a1ac4a-185d-400f-abb2-a8839128580e
+## 🍛 About the Project
 
-## How can I edit this code?
+This website presents "Telugu Ruchulu" - an authentic Telugu restaurant that celebrates the rich culinary heritage of Andhra Pradesh and Telangana. The site features traditional Telugu dishes, customer reviews, and an immersive cultural experience.
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Bilingual Content**: Telugu and English text throughout the site
+- **Hero Section**: Stunning background with restaurant introduction
+- **Interactive Menu**: Showcasing traditional dishes like:
+  - Idli Sambar
+  - Masala Dosa  
+  - Upma
+- **About Section**: Restaurant history and key highlights
+- **Rating & Feedback**: Customer review system with star ratings
+- **Contact Information**: Phone numbers and operating hours
+- **Responsive Design**: Optimized for all devices
+- **Modern UI**: Beautiful animations and gradients
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c0a1ac4a-185d-400f-abb2-a8839128580e) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend Framework
+- **React 18**: Component-based architecture
+- **TypeScript**: Type-safe development
+- **Vite**: Fast build tool and development server
 
-**Use your preferred IDE**
+### Styling & UI
+- **Tailwind CSS**: Utility-first CSS framework
+- **Shadcn/UI**: High-quality component library
+- **Lucide React**: Beautiful icons
+- **Custom CSS**: Enhanced design system with gradients and animations
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Additional Libraries
+- **React Router DOM**: Client-side routing
+- **React Hook Form**: Form handling
+- **TanStack Query**: Data fetching and caching
+- **Zod**: Schema validation
+- **Sonner**: Toast notifications
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── assets/           # Images and static files
+│   ├── hero-bg.jpg
+│   ├── idli-sambar.jpg
+│   ├── masala-dosa.jpg
+│   └── upma.jpg
+├── components/       # React components
+│   ├── ui/          # Shadcn UI components
+│   ├── Hero.tsx     # Main hero section
+│   ├── Menu.tsx     # Food menu display
+│   ├── About.tsx    # Restaurant information
+│   ├── RatingFeedback.tsx  # Customer reviews
+│   └── Contact.tsx  # Contact information
+├── pages/           # Route components
+│   ├── Index.tsx    # Main homepage
+│   └── NotFound.tsx # 404 page
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions
+└── main.tsx        # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-**Use GitHub Codespaces**
+### Installation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd telugu-restaurant-website
+   ```
 
-## What technologies are used for this project?
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-This project is built with:
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4. **Open in browser**
+   Navigate to `http://localhost:8080`
 
-## How can I deploy this project?
+### Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/c0a1ac4a-185d-400f-abb2-a8839128580e) and click on Share -> Publish.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-## Can I connect a custom domain to my Lovable project?
+## 🎨 Design System
 
-Yes, you can!
+The website uses a custom design system with:
+- **Color Palette**: Warm, traditional colors reflecting Telugu culture
+- **Typography**: Mix of English and Telugu fonts
+- **Components**: Reusable UI components with consistent styling
+- **Responsive Design**: Mobile-first approach
+- **Animations**: Smooth transitions and hover effects
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌟 Key Components
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Hero Section
+- Stunning background image
+- Bilingual welcome message
+- Call-to-action buttons for menu and reservations
+
+### Menu Section
+- Grid layout showcasing traditional dishes
+- High-quality food photography
+- Dish descriptions in both languages
+
+### Rating & Feedback
+- Interactive star rating system
+- Customer review submission form
+- Display of existing testimonials
+
+### About Section
+- Restaurant history and philosophy
+- Key highlights (Live Kitchen, Traditional Music, etc.)
+- Cultural elements and heritage
+
+## 📱 Responsive Design
+
+- **Mobile**: Optimized for smartphones (320px+)
+- **Tablet**: Adapted for tablet devices (768px+)
+- **Desktop**: Full experience for larger screens (1024px+)
+
+## 🔧 Configuration
+
+### Tailwind Configuration
+Custom design tokens defined in `tailwind.config.ts` and `src/index.css`
+
+### Vite Configuration
+Optimized build settings in `vite.config.ts` with path aliases
+
+## 🚀 Deployment
+
+This project can be deployed on various platforms:
+
+### Using Lovable
+1. Open [Lovable](https://lovable.dev)
+2. Click on Share → Publish
+
+### Manual Deployment
+1. Build the project: `npm run build`
+2. Deploy the `dist` folder to your hosting platform
+
+### Supported Platforms
+- Vercel
+- Netlify
+- GitHub Pages
+- Any static hosting service
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 📞 Support
+
+For questions or support regarding this website:
+- Check the code documentation
+- Review component implementations
+- Refer to the technology stack documentation
+
+---
+
+**తెలుగు రుచులు** - Bringing authentic Telugu flavors to the digital world! 🍛
