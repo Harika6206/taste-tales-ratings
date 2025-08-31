@@ -121,7 +121,7 @@ const Menu = () => {
             <TabsTrigger value="breakfast" className="text-sm">
               🌅<br />Breakfast<br />టిఫిన్
             </TabsTrigger>
-            <TabsTrigger value="main" className="text-sm">
+            <TabsTrigger value="mainCourse" className="text-sm">
               🍛<br />Main Course<br />ప్రధాన వంటకం
             </TabsTrigger>
             <TabsTrigger value="desserts" className="text-sm">
@@ -156,7 +156,7 @@ const Menu = () => {
             </div>
           </TabsContent>
 
-          <TabsContent value="main">
+          <TabsContent value="mainCourse">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {menuItems.mainCourse.map((item, index) => (
                 <Card key={index} className="overflow-hidden hover:shadow-warm transition-all duration-300 group">
