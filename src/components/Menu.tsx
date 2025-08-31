@@ -6,13 +6,22 @@ import masalaDosa from "@/assets/masala-dosa.jpg";
 import upma from "@/assets/upma.jpg";
 import pesarattu from "@/assets/pesarattu.jpg";
 import ravaVada from "@/assets/rava-vada.jpg";
+import pongal from "@/assets/pongal.jpg";
+import uttapam from "@/assets/uttapam.jpg";
+import medhuVada from "@/assets/medhu-vada.jpg";
 import biryani from "@/assets/biryani.jpg";
 import pulihora from "@/assets/pulihora.jpg";
 import gonguraMutton from "@/assets/gongura-mutton.jpg";
 import fishPulusu from "@/assets/fish-pulusu.jpg";
+import pappu from "@/assets/pappu.jpg";
+import chickenCurry from "@/assets/chicken-curry.jpg";
+import rasam from "@/assets/rasam.jpg";
 import gulabJamun from "@/assets/gulab-jamun.jpg";
 import payasam from "@/assets/payasam.jpg";
 import mysorePak from "@/assets/mysore-pak.jpg";
+import rasgulla from "@/assets/rasgulla.jpg";
+import halwa from "@/assets/halwa.jpg";
+import pootharekulu from "@/assets/pootharekulu.jpg";
 
 const Menu = () => {
   const menuItems = {
@@ -51,6 +60,27 @@ const Menu = () => {
         price: "₹110",
         description: "Crispy semolina donuts with coconut chutney",
         image: ravaVada
+      },
+      {
+        name: "Pongal",
+        teluguName: "పొంగల్",
+        price: "₹130",
+        description: "Creamy rice and lentil dish with ghee and black pepper",
+        image: pongal
+      },
+      {
+        name: "Uttapam",
+        teluguName: "ఉత్తపం",
+        price: "₹160",
+        description: "Thick savory pancake with vegetables and chutneys",
+        image: uttapam
+      },
+      {
+        name: "Medhu Vada",
+        teluguName: "మెదు వడ",
+        price: "₹120",
+        description: "Crispy fried lentil donuts with sambar and chutney",
+        image: medhuVada
       }
     ],
     mainCourse: [
@@ -81,6 +111,27 @@ const Menu = () => {
         price: "₹280",
         description: "Traditional Andhra fish curry with tamarind and vegetables",
         image: fishPulusu
+      },
+      {
+        name: "Pappu (Dal)",
+        teluguName: "పప్పు",
+        price: "₹150",
+        description: "Traditional lentil curry with turmeric and tempering",
+        image: pappu
+      },
+      {
+        name: "Chicken Curry",
+        teluguName: "కోడి కూర",
+        price: "₹380",
+        description: "Spicy Andhra style chicken curry with aromatic spices",
+        image: chickenCurry
+      },
+      {
+        name: "Rasam",
+        teluguName: "రసం",
+        price: "₹120",
+        description: "Tangy tomato and tamarind soup with black pepper",
+        image: rasam
       }
     ],
     desserts: [
@@ -104,6 +155,27 @@ const Menu = () => {
         price: "₹160",
         description: "Rich gram flour sweet with ghee and sugar",
         image: mysorePak
+      },
+      {
+        name: "Rasgulla",
+        teluguName: "రసగుల్లా",
+        price: "₹140",
+        description: "Soft cottage cheese balls in light sugar syrup",
+        image: rasgulla
+      },
+      {
+        name: "Halwa",
+        teluguName: "హల్వా",
+        price: "₹170",
+        description: "Rich semolina pudding with ghee and dry fruits",
+        image: halwa
+      },
+      {
+        name: "Pootharekulu",
+        teluguName: "పూతరేకులు",
+        price: "₹200",
+        description: "Traditional paper-thin rice sheets with jaggery and nuts",
+        image: pootharekulu
       }
     ]
   };
